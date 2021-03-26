@@ -16,7 +16,6 @@ export default function SingleCard({ id, image, title, description, price }) {
 				<CardMedia
 					className={classes.media}
 					image={image}
-					title="Contemplative Reptile"
 				/>
 				<CardContent>
 					<Typography gutterBottom variant="h5" component="h2">
